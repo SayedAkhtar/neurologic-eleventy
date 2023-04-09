@@ -162,42 +162,29 @@ picture img {
 }
 
 .industries__card {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
   margin: 0 auto;
+  max-width: 150px;
 
-  &:hover {
-    & > .industries__card--description {
-      background-color: rgba($color: $blue, $alpha: 0.7);
-    }
-    & > .industries__card--description > h3 {
-      opacity: 1;
-    }
+  &--picture{
+    width: 100%;
+    height: 150px;
+    border-radius: 100%;
+    background-color: $grey;
+    padding: 30px;
   }
 
   &--description {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    color: #fff;
-    border-radius: 100%;
-    transition: all 0.5s;
+    margin-top: 35px;
     & h3 {
-      opacity: 0;
       transition: all 0.3s;
-      font-weight: 700;
-      font-size: 2rem;
+      font-weight: 500;
+      font-size: 1rem;
       letter-spacing: 1.1;
+      text-align: center;
     }
   }
 }
