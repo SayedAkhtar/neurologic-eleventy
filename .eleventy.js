@@ -58,6 +58,12 @@ module.exports = function(eleventyConfig) {
       zone: 'utc'
     }).toFormat('yyyy-LL-dd');
   });
+
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/swiper/swiper-bundle.min.js": "/assets/js/swiper.js",
+    "./node_modules/swiper/swiper-bundle.min.css": "/assets/css/swiper.css",
+});
+
   return {
     dir: {
       input: "src",

@@ -1,0 +1,63 @@
+<section class="smart-platform">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <h1 class="heading-1 with-dots">Neurologic Smart Platform</h1>
+      </div>
+    </div>
+
+    <div class="row smart-platform--nav">
+      <ul class="nav nav-pills" id="v-pills-tab" role="tablist">
+        {% for items in smartPlatform %}
+        <li class="nav-item">
+          <a class="nav-link {% if loop.index == 1 %} active {% endif %}" aria-current="page" href="#"
+          id="v-pills-{{ items.id }}-tab" data-bs-toggle="pill" data-bs-target="#v-pills-{{items.id}}" type="button" role="tab" aria-controls="v-pills-{{ items.id }}" aria-selected="true"
+          >{{ items.tab }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="tab-content" id="v-pills-outerTabContent">
+        {% for item in smartPlatform %}
+            <div class="tab-pane fade {% if loop.index == 1 %} show active {% endif %}" id="v-pills-{{ item.id}}" role="tabpanel" aria-labelledby="v-pills-{{ item.id }}-tab">
+                <div class="row smart-platform__paragraph" id="{{ item.id }}-paragraph">
+                    <div class="col-sm-12 com-md-12">
+                        <h2 class="smart-platform__heading text-center">{{ item.heading }}</h2>
+                        <p class="paragraph-m">{{ item.sub_heading }}</p>
+                    </div>
+                </div>
+                <div class="row smart-platform__child" id="{{ item.id }}-data">
+                    <div class="col-sm-12 col-md-4">
+                        <ul class="smart-platform__list">
+                            {% for subItem in item.tile %}
+                            <li class="smart-platform__list--li {% if loop.index == 1 %} active {% endif %}">
+                            <a aria-current="page" href="#"
+                            id="v-pills-{{ item.id }}-tab-{{loop.index}}" data-bs-toggle="pill" data-bs-target="#v-pills-{{item.id}}-{{ loop.index }}" type="button" role="tab" aria-controls="v-pills-{{ item.id }}" aria-selected="true"
+                            > {{ subItem.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="tab-content col-sm-12 col-md-8" id="v-pills-innerTabContent">
+                        {% for subItem in item.tile %}
+                        <div class="tab-pane fade {% if loop.index == 1 %} show active {% endif %}" id="v-pills-{{ item.id}}-{{ loop.index }}" role="tabpanel">
+                            <div class="col-sm-12 col-md-8 smart-platform__list--wrapper {% if loop.index == 1 %} active {% endif %}">
+                        <picture class="smart-platform__list--picture">
+                            <source srcset="/img/Healthcare-54-min.webp" type="image/webp">
+                            <source srcset="/img/Healthcare-54-min.png" type="image/png" >
+                            <img src="/img/Healthcare-54-min.png" alt=""/>
+                        </picture>
+                        <div class="smart-platform__list--para">
+                        <p>
+                                High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues
+                        </p> 
+                        </div>
+                    </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>

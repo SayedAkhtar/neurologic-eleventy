@@ -49,7 +49,7 @@ gulp.task('minify-html', () => {
 
 // Purging unused CSS
 gulp.task('purgecss', () => {
-    return gulp.src('public/css/theme.min.css')
+    return gulp.src('public/css/style.min.css')
         .pipe(purgecss({
             content: ['public/**/*.html'],
             safelist: ['collapsed', 'collapse', 'active', 'show', 'collapsing' ]
@@ -106,7 +106,7 @@ gulp.watch("dev/**/*.*").on('change', browserSync.reload);
 
 // Compile sass to css
 gulp.task('sass', function () {
-  return gulp.src('src/scss/theme.scss')
+  return gulp.src('src/scss/style.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dev/css'))
 });
@@ -114,7 +114,7 @@ gulp.task('sass', function () {
 gulp.task('inject-min-css', function(done) {
   gulp.src('./public/**/*.html')
     .pipe(htmlreplace({
-        'css': '/css/theme.min.css'
+        'css': '/css/style.min.css'
     }))
     .pipe(gulp.dest('./public'));
          done();

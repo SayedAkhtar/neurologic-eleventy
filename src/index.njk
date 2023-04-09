@@ -1,68 +1,390 @@
 ---
-layout: layouts/blank.njk
+layout: layouts/base.njk
 ---
 
-<div class="container my-vh-6">
-  <div class="row d-flex justify-content-center">
-    <div class="col-12 col-lg-8 my-4 text-center">
-      <h1 class="display-1">
-        Welcome to the
-        <strong>11straps</strong>
-        demo website!
-      </h1>
-      <p class="lead mb-4">It combines the static website generator Eleventy & the CSS framework Bootstrap 5.</p>
-      <a class="btn btn-primary px-5 py-3 me-4 position-relative" href="https://gumroad.com/l/WPeVF" target="_blank" rel="noopener" >Download
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">v0.2<span class="visually-hidden">latest version</span></span></a>
-      <a class="link-fancy py-2" href="https://github.com/holger1411/11straps">Check it out on Github
-      </a>
-    </div>
-  </div>
-</div>
+<header class="main-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <h1 class="heading-1 text-uppercase">
+          Transforming<br />Business with<br />
+          <span class="hilight">Intelligence</span>
+        </h1>
+        <p class="text-bold">
+          We are a strong team of dedicated individuals, constantly pushing
+          ourselves beyond our limits, from simply being an AI transformation
+          organization to becoming a leader in enabling global AI
+          transformation.
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 mt-2">
+            <button class="btn btn-primary text-uppercase">
+              Learn More
+            </button>
+          </div>
+          <div class="col-md-6 col-sm-12 mt-2">
+            <button class="btn btn-outline-dark text-uppercase">
+              Request a quote
+            </button>
+          </div>
+        </div>
+      </div>
 
-<div class="wrapper position-relative my-vh-5 bg-light">
-  <div class="bg-white w-50 h-100 position-absolute d-none d-lg-block"></div>
-  <div class="container position-relative py-vh-4">
-    <div class="row justify-content-between d-flex align-items-stretch py-vh-2">
-      <div class="col-12 col-lg-5">
-        <h2 class="h2">Open source & free</h2>
-        <p>11straps is an open source project released under the MIT license. It is free for everyone. You are welcome to test, contribute and improve it or use it even for commercial projects.</p>
-      </div>
-      <div class="col-12 col-lg-5 py-vh-1">
-        <h2>Eleventy + Bootstrap = 💪</h2>
-        <p>11straps come´s with the static site generator Eleventy and the CSS framework Bootstrap 5 in it. It combines both via npm and Gulp and adds some dev and build magic to it. This website itself is also included as example.</p>
-      </div>
-      <div class="col-12 col-lg-5 py-vh-1">
-        <h2>Local server & Browser Sync</h2>
-        <p>11straps includes a dev build process with a local server and browser sync. Everything you need for your local live dev environment.</p>
-      </div>
-      <div class="col-12 col-lg-5 py-vh-1">
-        <h2>Minified and purged output</h2>
-        <p>Once you are done with your local development it´s time for a prod build. The 11straps prod output is a minified HTML site with a minified and purged CSS file and optimized assets. Thats it. Just a clean, fast and static website will come out.</p>
+      <div
+        class="col-md-7 col-sm-12 d-flex justify-content-center justify-content-md-end justify-content-sm-center pt-5 pt-md-0 pt-sm-4"
+      >
+        <div class="shape-after w-75">
+          <img
+            src="/img/landing-page-shape-min.png"
+            alt=""
+            class="shape-after-img"
+          />
+          <img src="/img/image-003.png" alt="" class="shape-after-main" />
+        </div>
       </div>
     </div>
   </div>
-</div>
+</header>
 
-<div class="container">
-  <div class="row py-5 border-top">
-    <div class="col-12 col-lg-6 border-right">
-      <h2>Documentation</h2>
-      <p>The full documentation can be found over there at
-        <a href="https://github.com/holger1411/11straps/blob/main/README.md" class="link-fancy" target="_blank" rel="noopener">Github</a>.</p>
-    </div>
-    <div class="col-12 col-lg-6 pl-4">
-      <h2>Credits</h2>
-      <p>Many thanks to the
-        <a href="https://www.11ty.dev/" class="link-fancy" target="_blank" rel="noopener">Eleventy</a>
-        and the
-        <a href="https://www.getbootstrap.com" class="link-fancy" target="_blank" rel="noopener">Bootstrap</a>
-        team of course.<br/>
-        Special thanks to Rasmus Anderson for the great
-        <a href="https://rsms.me/inter/" class="link-fancy" target="_blank" rel="noopener">Inter UI</a>
-        typeface familiy I use on this website.<br/>
-        Also a big shoutout to
-        <a href="https://www.dennissnellenberg.nl/en/" class="link-fancy" target="_blank" rel="noopener">Dennis Snellenberg</a>
-        for his awesome Angular Icon set</p>
+<section class="our-vision">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 mt-5">
+        <h1 class="heading-1 with-dots">Our<br />Vision</h1>
+        <p class="paragraph-m">
+          To create a one-stop solution for high-performance AI and ML
+          deliverables in a world of rapid digital transformation
+        </p>
+      </div>
+      <div class="col-md-8 col-sm-12 our-vision__hero">
+        <picture class="img-responsive our-vission__hero--picture">
+          <source srcset="/img/landing-mission-min.webp" type="image/webp" />
+          <source srcset="/img/landing-mission-min.png" type="image/png" />
+          <img
+            src="/img/landing-mission-min.png"
+            class="our-vission__hero--img"
+          />
+        </picture>
+        <div class="our-vision__hero--info">
+          <div class="row">
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="col-md-8 col-sm-12">
+              <h1 class="heading-1">Our Mission</h1>
+              <p class="paragraph-m">
+                To understand how your business works, resolve bottlenecks, and
+                accelerate business deliveries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="clients-trust">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-5">
+        <h1 class="heading-1 with-dots">Clients who Trust Us</h1>
+        <p class="paragraph-m">
+          Client service is the backbone of any successful business. It's not
+          just about providing a satisfactory experience, but going above and
+          beyond to exceed the expectations of your customers. This requires
+          having a deep understanding of their needs and providing personalized
+          solutions to meet them.
+        </p>
+      </div>
+    </div>
+
+    <div class="row d-none">
+      <div class="col-12">
+        <picture class="img-responsive clients-trust__hero--picture">
+          <source srcset="/img/clients-main.webp" type="image/webp" />
+          <source srcset="/img/clients-main.jpg" type="image/jpeg" />
+          <img src="/img/clients-main.jpg" class="our-vission__hero--img" />
+        </picture>
+      </div>
+    </div>
+    <div class="client-image-row">
+      <div class="client-image-wrapper">
+        <img src="/img/client-1.png" class="img-responsive" alt="" />
+      </div>
+      <div class="client-image-wrapper">
+        <img src="/img/client-2.png" class="img-responsive" alt="" />
+      </div>
+      <div class="client-image-wrapper">
+        <img src="/img/client-4.png" class="img-responsive" alt="" />
+      </div>
+      <div class="client-image-wrapper">
+        <img src="/img/client-3.png" class="img-responsive" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="industries">
+  <div class="container">
+    <h1 class="heading-1 with-dots">Industries</h1>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="circle-card industries__card">
+            <div class="card-image industries__card--picture">
+              <picture class="img-responsive industries__card--picture">
+                <source
+                  srcset="img/Landing-page-tiles-54-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/Landing-page-tiles-54-min.png"
+                  type="image/png"
+                />
+                <img
+                  src="img/Landing-page-tiles-54-min.png"
+                  class="industries__card--img"
+                />
+              </picture>
+            </div>
+            <div class="industries__card--description">
+              <h3>Automobile</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="circle-card industries__card">
+            <div class="card-image industries__card--picture">
+              <picture class="img-responsive industries__card--picture">
+                <source
+                  srcset="img/Landing-page-tiles-55-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/Landing-page-tiles-55-min.png"
+                  type="image/png"
+                />
+                <img
+                  src="img/Landing-page-tiles-55-min.png"
+                  class="industries__card--img"
+                />
+              </picture>
+            </div>
+            <div class="industries__card--description">
+              <h3>Automobile</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="circle-card industries__card">
+            <div class="card-image industries__card--picture">
+              <picture class="img-responsive industries__card--picture">
+                <source
+                  srcset="img/Landing-page-tiles-56-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/Landing-page-tiles-56-min.png"
+                  type="image/png"
+                />
+                <img
+                  src="img/Landing-page-tiles-56-min.png"
+                  class="industries__card--img"
+                />
+              </picture>
+            </div>
+            <div class="industries__card--description">
+              <h3>Automobile</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="circle-card industries__card">
+            <div class="card-image industries__card--picture">
+              <picture class="img-responsive industries__card--picture">
+                <source
+                  srcset="img/Landing-page-tiles-54-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/Landing-page-tiles-54-min.png"
+                  type="image/png"
+                />
+                <img
+                  src="img/Landing-page-tiles-54-min.png"
+                  class="industries__card--img"
+                />
+              </picture>
+            </div>
+            <div class="industries__card--description">
+              <h3>Automobile</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-buttons">
+      <div class="industries-swiper__button industries-swiper__prev">
+        <img src="/img/arrow.svg" alt="" />
+      </div>
+      <div class="industries-swiper__button industries-swiper__next">
+        <img src="/img/arrow.svg" alt="" style="transform: rotate(180deg)" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="solutions d-none">
+  <div class="container">
+    <h1 class="heading-1 with-dots">Solutions Based On Your Needs</h1>
+  </div>
+  <div class="industries-solutions">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-3 col-sm-12">
+              <div class="industries-solutions--icon">
+                <img src="/img/solution-icon-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12">
+              <h2 class="heading-2">Need to scale?</h2>
+              <p class="paragraph-m industries-solutions--paragraph">
+                Our network of over 1,000,000 re- motely located experts is
+                standing by for your tasks. We use a com- prehensive talent
+                selection strate- gy to ensure your data is handled by the most
+                suitable and best-trained workers, wherever they are.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-3 col-sm-12">
+              <div class="industries-solutions--icon">
+                <img src="/img/solution-icon-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12 ">
+              <h2 class="heading-2">Need talent?</h2>
+              <p class="paragraph-m industries-solutions--paragraph">
+                TransPerfect can help you expand your team with computational
+                linguists or annotation experts. By screening, hiring, and
+                training the talent needed for your requirements, you don't have
+                to worry about administrative- and HR-re- lated matters involved
+                with staffing these teams in-house again.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-3 col-sm-12">
+              <div class="industries-solutions--icon">
+                <img src="/img/solution-icon-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12 ">
+              <h2 class="heading-2">Need security?</h2>
+              <p class="paragraph-m industries-solutions--paragraph">
+                Our customers value high confidenti- ality standards as a means
+                of protect- ing their IP. We are ISO-certified, maintain secure
+                premises, and will implement customer-specific policies you may
+                require.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-3 col-sm-12">
+              <div class="industries-solutions--icon">
+                <img src="/img/solution-icon-1.png" class="" alt="" />
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12 ">
+              <h2 class="heading-2">Need on-site resources?</h2>
+              <p class="paragraph-m industries-solutions--paragraph">
+                We staff hundreds of annotators on premise who handle a variety
+                of deliver- ables. For continuous, long-term proj- ects that
+                require highly skilled workers with experience in different
+                types of an- notations, this model is the best blend of
+                convenience and commitment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-5">
+        <h1 class="heading-1 with-dots">Team</h1>
+      </div>
+    </div>
+    <div class="team-row">
+      <div class="team-row-col">
+        <div class="team-img">
+          <img src="/img/team-1.png" alt="" class="img-responsive" />
+        </div>
+        <div class="team-description">
+          <h3 class="team-heading">Nishan Ali</h3>
+          <h4 class="team-heading--sub">Founder & AI/ML Engineer</h4>
+        </div>
+      </div>
+
+      <div class="team-row-col">
+        <div class="team-img">
+          <img src="/img/team-2.png" alt="" class="img-responsive" />
+        </div>
+        <div class="team-description">
+          <h3 class="team-heading">John Gillotte</h3>
+          <h4 class="team-heading--sub">Chief Architect</h4>
+        </div>
+      </div>
+
+      <div class="team-row-col">
+        <div class="team-img">
+          <img src="/img/team-3.png" alt="" class="img-responsive" />
+        </div>
+        <div class="team-description">
+          <h3 class="team-heading">Indranil Basu</h3>
+          <h4 class="team-heading--sub">Principal Data Science Advisor</h4>
+        </div>
+      </div>
+
+      <div class="team-row-col">
+        <div class="team-img">
+          <img src="/img/team-4.png" alt="" class="img-responsive" />
+        </div>
+        <div class="team-description">
+          <h3 class="team-heading">Aditya Bhattachariya</h3>
+          <h4 class="team-heading--sub">
+            Principal Data Science & Engineering Advisor
+          </h4>
+        </div>
+      </div>
+
+      <div class="team-row-col">
+        <div class="team-img">
+          <img src="/img/team-5.png" alt="" class="img-responsive" />
+        </div>
+        <div class="team-description">
+          <h3 class="team-heading">Gourab Saha</h3>
+          <h4 class="team-heading--sub">Data Scientist</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include 'snippets/smartplatform.njk' %}

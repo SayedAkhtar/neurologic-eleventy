@@ -1,0 +1,54 @@
+[
+  {
+    "id": "healthcare",
+    "tab": "HEALTHCARE",
+    "heading": "Healthcare AI Solutions for Website Display",
+    "sub_heading": "The healthcare industry is constantly evolving, and with the help of advancements intechnology, many challenges faced in the sector can be resolved. Our portfolio focuses on the implementation of AI and Machine Learning to enhance the healthcare ex- perience for patients, health insurance customers, and healthcare providers.",
+    "tile": [
+      {
+        "id": "1",
+        "name": "Patient Risk Identification",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      },
+      {
+        "name": "Prediction of Healthcare Tests and Procedures",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      },
+      {
+        "name": "Maintaining Healthcare Records",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      },
+      {
+        "name": "Recommendation of Appropriate Health Insurance Plans and Top-ups",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      },
+      {
+        "name": "Prediction of Disease in the Next 1-2 Years",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      },
+      {
+        "name": "AI Assistance in Making Health Insurance Plans",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      }
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "tab": "E-Commerce",
+    "heading": "",
+    "sub_heading": "Artificial Intelligence has been transforming various industries, and e-commerce is no exception. AI is revolutionizing the way e-commerce operates, by providing solutions to enhance the shopping experience for customers, optimize supply chain man- agement, and increase sales and profits. With AI, e-commerce businesses can provide personalized recommendations, improve product search, automate repetitive tasks, and analyze customer data to gain insights into customer behaviour and preferenc- es. AI algorithms can also help to detect and prevent fraud, reduce processing time, and streamline logistics and delivery. The potential for AI to transform the e-commerce industry is immense, and businesses that embrace it can stay ahead of the curve, providing a competitive edge and increased customer satisfaction.",
+    "tile": [
+      {
+        "name": "Patient Risk Identification",
+        "image": "/img/BFSI-ai-min.webp",
+        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+      }
+    ]
+  }
+]

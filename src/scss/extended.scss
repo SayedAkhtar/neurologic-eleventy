@@ -1,0 +1,375 @@
+.logo-img {
+  width: 250px;
+}
+
+.hilight {
+  color: $blue;
+}
+
+.nav-item {
+  font-family: $secondary-font;
+  font-weight: 500;
+  font-size: 1.5rem;
+  & .nav-link {
+    text-transform: uppercase;
+    color: $black;
+  }
+}
+
+.main-header {
+  background-image: url("/img/landing-page-Banner-min.png");
+  background-size: 110%;
+  background-position-x: -30px;
+  background-position-y: -24px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px;
+  border-image: linear-gradient(0.25turn, $blue, $green);
+  border-image-slice: 1;
+  border-bottom-style: solid;
+  @media (max-width: 500px) {
+    background-size: cover;
+  }
+}
+
+.shape-after {
+  position: relative;
+  padding-right: 1rem;
+}
+
+.shape-after-img {
+  position: absolute;
+  top: -39%;
+  right: -35%;
+  width: 130%;
+  height: 160%;
+  z-index: 0;
+  transform: rotate(-5deg);
+}
+
+.shape-after-main {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.with-dots {
+  position: relative;
+}
+
+h1.with-dots::before {
+  content: "";
+  background-image: url("/img/dots-min.png");
+  background-size: cover;
+  width: 120px;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: -60px;
+}
+
+picture {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+picture img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.our-vission__hero--picture {
+  max-height: 500px;
+}
+
+.clients-trust {
+  position: relative;
+  display: block;
+}
+
+.clients-trust::before {
+  content: "";
+  background-image: url("/img/landing-shape-2-min.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  right: 0px;
+}
+
+.clients-trust__hero--picture {
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.client-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.client-image-row .client-image-wrapper {
+  display: flex;
+  flex-basis: 33%;
+  padding: 5px 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.client-image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.industries-solutions {
+  background-image: url("/img/services-banner-63-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+
+  &--icon {
+    max-width: 120px;
+    max-height: 120px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 2.2rem;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &--paragraph {
+    letter-spacing: 2px;
+    line-height: 1.7;
+  }
+
+  & > .container > .row {
+    row-gap: 30px;
+  }
+}
+
+.industries__card {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+
+  &:hover {
+    & > .industries__card--description {
+      background-color: rgba($color: $blue, $alpha: 0.7);
+    }
+    & > .industries__card--description > h3 {
+      opacity: 1;
+    }
+  }
+
+  &--description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 100%;
+    transition: all 0.5s;
+    & h3 {
+      opacity: 0;
+      transition: all 0.3s;
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 1.1;
+    }
+  }
+}
+
+.swiper-buttons {
+  display: flex;
+  justify-content: end;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.industries-swiper__button {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  background-color: rgba($color: $black, $alpha: 0.7);
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  &:hover {
+    background-color: rgba($color: $blue, $alpha: 0.9);
+  }
+  & img {
+    width: 100%;
+  }
+}
+
+.team {
+  position: relative;
+  display: block;
+}
+
+// .team::before{
+//     content: '';
+//     background-image: url('/img/landing-shape-2-min.png');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     width: 40%;
+//     height: 100%;
+//     display: inline-block;
+//     position: absolute;
+//     top: -30px;
+//     right: 0px;
+// }
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  justify-content: space-between;
+  &-col {
+    width: calc(20% - 30px);
+    display: block;
+  }
+}
+.team-img {
+  width: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 20px solid #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+  & img {
+    width: 100%;
+    border-radius: 100%;
+  }
+}
+.team-description {
+  margin-top: 24px;
+}
+.team-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  &--sub {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: $grey;
+  }
+}
+
+.smart-platform--nav {
+  margin: 20px 0px;
+}
+
+.smart-platform__heading {
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.smart-platform__child {
+  margin-top: 30px;
+}
+
+.smart-platform__list {
+  list-style: none;
+  padding-left: 0px;
+
+  &--li {
+    list-style: none;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-image: linear-gradient(0.25turn, $blue, $green) 10;
+    border-width: 6px;
+    border-style: solid;
+    margin-bottom: 15px;
+    & a {
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+      }
+    &.active {
+      background-image: linear-gradient(0.25turn, $blue, $green);
+      & a {
+        color: #fff;
+      }
+    }
+    
+  }
+
+  &--wrapper {
+    display: none;
+    position: relative;
+    &.active{
+        display: block;
+    }
+  }
+
+  &--picture {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: $lightBlue;
+      top: 8%;
+      left: 8%;
+      z-index: -1;
+    }
+  }
+  &--para {
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    width: 70%;
+    position: absolute;
+    bottom: 10%;
+    right: 11%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    & p {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .main-header {
+    padding-bottom: 55px;
+  }
+
+  .client-image-row .client-image-wrapper {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
