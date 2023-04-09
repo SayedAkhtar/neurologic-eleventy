@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Data Annotations",
+        "image": "/img/menu-icons-54-min.png"
+    },
+    {
+        "name": "Image & Video Analytics Services",
+        "image": "/img/menu-icons-62-min.png"
+    },
+    {
+        "name": "Audio Analytics Service",
+        "image": "/img/menu-icons-65-min.png"
+    },
+    {
+        "name": "Text Analytics with Natural Language Processing",
+        "image": "/img/menu-icons-60-min.png"
+    },
+    {
+        "name": "Forecasting and Predictive Modeling Services",
+        "image": "/img/menu-icons-63-min.png"
+    },
+    {
+        "name": "Recommendation Engine Services",
+        "image": "/img/menu-icons-59-min.png"
+    },
+    {
+        "name": "Explainable Machine Learning Services",
+        "image": "/img/menu-icons-61-min.png"
+    },
+    {
+        "name": "MLOps Deployment Pipeline Services",
+        "image": "/img/menu-icons-58-min.png"
+    },
+    {
+        "name": "Training and Education Services for Digital Transformation and AI",
+        "image": "/img/menu-icons-56-min.png"
+    }
+]

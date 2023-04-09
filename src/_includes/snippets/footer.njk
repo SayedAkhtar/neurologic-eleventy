@@ -1,4 +1,52 @@
-<footer class="container">
+<footer >
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+          <a href="/" class="d-block"><img src="/img/footer-56-min.png" alt="" class="img-responsive w-100"></a>
+      </div>
+      <div class="col-sm-12 col-md-1"></div>
+      <div class="col-sm-12 col-md-2">
+        <h6 class="footer-nav-title">Services</h6>
+        <ul class="footer-nav">
+          {% for item in footer.service %}
+          <li class="footer-nav__li">{{ item.name}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-2">
+        <h6 class="footer-nav-title">Industries</h6>
+        <ul class="footer-nav">
+          {% for item in footer.industries %}
+          <li class="footer-nav__li">{{ item.name}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <h6 class="footer-nav-title">Success Stories</h6>
+        <h6 class="footer-nav-title">Resources</h6>
+        <h6 class="footer-nav-title">News</h6>
+        <h6 class="footer-nav-title">Get in touch</h6>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="footer-social">
+        <li class="footer-social__li"><a href="#"class="footer-social__li--link"> <img src="/img/facebook.png" alt="" class="footer-social__li--img"></a></li>
+        <li class="footer-social__li"><a href="#"class="footer-social__li--link"> <img src="/img/instagram.png" alt="" class="footer-social__li--img"></a></li>
+        <li class="footer-social__li"><a href="#"class="footer-social__li--link"> <img src="/img/twitter.png" alt="" class="footer-social__li--img"></a></li>
+        <li class="footer-social__li"><a href="#"class="footer-social__li--link"> <img src="/img/linkedin.png" alt="" class="footer-social__li--img"></a></li>
+      </ul>
+      <div class="footer-acc">
+        <p class="text-white">More about Neurologic and our<br/>OTHER SERVICES</p>
+        <img src="/img/footer-61-min.png" alt=""/>
+        <div class="row">
+          <div class="col-8">
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 <script src="{{ '/js/bootstrap.bundle.min.js' | url }}"></script>
 <script src="{{ '/assets/js/swiper.js' | url }}"></script>
@@ -32,4 +80,51 @@
       }
     }
   });
+
+  window.addEventListener("DOMContentLoaded", function(event) {
+    $navTabs = [].slice.call(document.querySelectorAll('.smart-platform__list--li'));
+    $navTabs.forEach(function (triggerEl) {
+      var tabTrigger = new bootstrap.Tab(triggerEl);
+      {# triggerEl.classList.remove('active'); #}
+      triggerEl.addEventListener('click', function (event) {
+        $element = document.querySelector(tabTrigger._config.target);
+        $tabs = [].slice.call(document.querySelectorAll('#v-pills-innerTabContent .tab-pane'));
+        $tabs.forEach(function (ele){
+          ele.classList.remove('active');
+          ele.style.display = 'none';
+        });
+        $navTabs.forEach(function(ele){
+          ele.classList.remove('active');
+        })
+        triggerEl.classList.add('active');
+        unfade($element);
+      })
+    });
+  });
+
+  function fade(element) {
+      var op = 1;  // initial opacity
+      var timer = setInterval(function () {
+          if (op <= 0.1){
+              clearInterval(timer);
+              element.style.display = 'none';
+          }
+          element.style.opacity = op;
+          element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+          op -= op * 0.1;
+      }, 20);
+  }
+
+  function unfade(element) {
+      var op = 0.1;  // initial opacity
+      element.style.display = 'block';
+      var timer = setInterval(function () {
+          if (op >= 1){
+              clearInterval(timer);
+          }
+          element.style.opacity = op;
+          element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+          op += op * 0.1;
+      }, 10);
+  }
 </script>

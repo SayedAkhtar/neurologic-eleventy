@@ -1,0 +1,66 @@
+{
+    "service" : [
+        {
+            "name": "Data Collection",
+            "link": "#"
+        },
+        {
+            "name": "Data Annotation",
+            "link": "#"
+        },
+        {
+            "name": "Transcription",
+            "link": "#"
+        },
+        {
+            "name": "Chatbot Localization",
+            "link": "#"
+        },
+        {
+            "name": "User Studies",
+            "link": "#"
+        },
+        {
+            "name": "Data Relevance and Rating",
+            "link": "#"
+        },
+        {
+            "name": "Data Moderation",
+            "link": "#"
+        }
+    ],
+    "industries" : [
+        {
+            "name": "Automotive",
+            "link": "#"
+        },
+        {
+            "name": "Cybersecurity",
+            "link": "#"
+        },
+        {
+            "name": "Finance",
+            "link": "#"
+        },
+        {
+            "name": "Life Sciences",
+            "link": "#"
+        },
+        {
+            "name": "Manufacturing",
+            "link": "#"
+        },
+        {
+            "name": "Retail",
+            "link": "#"
+        },
+        {
+            "name": "Technology",
+            "link": "#"
+        },
+        {
+            "name": "Travel",
+            "link": "#"
+        }
+    ]
+}

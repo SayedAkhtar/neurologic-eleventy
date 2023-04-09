@@ -125,103 +125,32 @@ layout: layouts/base.njk
 
 <section class="industries">
   <div class="container">
-    <h1 class="heading-1 with-dots">Industries</h1>
+    <h1 class="heading-1 with-dots">Services</h1>
     <div class="swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
+        {% for item in servicesSlider %}
         <div class="swiper-slide">
           <div class="circle-card industries__card">
             <div class="card-image industries__card--picture">
               <picture class="img-responsive industries__card--picture">
                 <source
-                  srcset="img/Landing-page-tiles-54-min.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="img/Landing-page-tiles-54-min.png"
+                  srcset="{{ item.image }}"
                   type="image/png"
                 />
                 <img
-                  src="img/Landing-page-tiles-54-min.png"
+                  src="{{ item.image }}"
                   class="industries__card--img"
                 />
               </picture>
             </div>
             <div class="industries__card--description">
-              <h3>Automobile</h3>
+              <h3>{{ item.name }}</h3>
             </div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="circle-card industries__card">
-            <div class="card-image industries__card--picture">
-              <picture class="img-responsive industries__card--picture">
-                <source
-                  srcset="img/Landing-page-tiles-55-min.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="img/Landing-page-tiles-55-min.png"
-                  type="image/png"
-                />
-                <img
-                  src="img/Landing-page-tiles-55-min.png"
-                  class="industries__card--img"
-                />
-              </picture>
-            </div>
-            <div class="industries__card--description">
-              <h3>Automobile</h3>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="circle-card industries__card">
-            <div class="card-image industries__card--picture">
-              <picture class="img-responsive industries__card--picture">
-                <source
-                  srcset="img/Landing-page-tiles-56-min.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="img/Landing-page-tiles-56-min.png"
-                  type="image/png"
-                />
-                <img
-                  src="img/Landing-page-tiles-56-min.png"
-                  class="industries__card--img"
-                />
-              </picture>
-            </div>
-            <div class="industries__card--description">
-              <h3>Automobile</h3>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="circle-card industries__card">
-            <div class="card-image industries__card--picture">
-              <picture class="img-responsive industries__card--picture">
-                <source
-                  srcset="img/Landing-page-tiles-54-min.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="img/Landing-page-tiles-54-min.png"
-                  type="image/png"
-                />
-                <img
-                  src="img/Landing-page-tiles-54-min.png"
-                  class="industries__card--img"
-                />
-              </picture>
-            </div>
-            <div class="industries__card--description">
-              <h3>Automobile</h3>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
       <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
@@ -388,3 +317,4 @@ layout: layouts/base.njk
 </section>
 
 {% include 'snippets/smartplatform.njk' %}
+{% include 'snippets/form.njk' %}

@@ -30,28 +30,27 @@
                     <div class="col-sm-12 col-md-4">
                         <ul class="smart-platform__list">
                             {% for subItem in item.tile %}
-                            <li class="smart-platform__list--li {% if loop.index == 1 %} active {% endif %}">
-                            <a aria-current="page" href="#"
-                            id="v-pills-{{ item.id }}-tab-{{loop.index}}" data-bs-toggle="pill" data-bs-target="#v-pills-{{item.id}}-{{ loop.index }}" type="button" role="tab" aria-controls="v-pills-{{ item.id }}" aria-selected="true"
-                            > {{ subItem.name }}</a></li>
+                            <li class="smart-platform__list--li {% if loop.index == 1 %} active {% endif %}" id="{{ subItem.id }}-tab" data-bs-target="#{{ subItem.id }}">
+                            <a href="javascript:void(0)"> {{ subItem.name }}</a>
+                            </li>
                             {% endfor %}
                         </ul>
                     </div>
                     <div class="tab-content col-sm-12 col-md-8" id="v-pills-innerTabContent">
                         {% for subItem in item.tile %}
-                        <div class="tab-pane fade {% if loop.index == 1 %} show active {% endif %}" id="v-pills-{{ item.id}}-{{ loop.index }}" role="tabpanel">
-                            <div class="col-sm-12 col-md-8 smart-platform__list--wrapper {% if loop.index == 1 %} active {% endif %}">
-                        <picture class="smart-platform__list--picture">
-                            <source srcset="/img/Healthcare-54-min.webp" type="image/webp">
-                            <source srcset="/img/Healthcare-54-min.png" type="image/png" >
-                            <img src="/img/Healthcare-54-min.png" alt=""/>
-                        </picture>
-                        <div class="smart-platform__list--para">
-                        <p>
-                                High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues
-                        </p> 
-                        </div>
-                    </div>
+                        <div class="tab-pane {% if loop.index == 1 %} active {% endif %}" id="{{ subItem.id }}" role="tabpanel">
+                            <div class="smart-platform__list--wrapper">
+                                <picture class="smart-platform__list--picture">
+                                    <source srcset="/img/Healthcare-54-min.webp" type="image/webp">
+                                    <source srcset="/img/Healthcare-54-min.png" type="image/png" >
+                                    <img src="/img/Healthcare-54-min.png" alt=""/>
+                                </picture>
+                                <div class="smart-platform__list--para">
+                                    <p>
+                                        High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues
+                                    </p> 
+                                </div>
+                            </div>
                         </div>
                         {% endfor %}
                     </div>
