@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+---
+
+<header
+  class="service-header"
+  style="background-image: url('{{ banner }}')"
+>
+  <div class="container service__header--container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 ">
+        <h1 class="service--title">{{ title }}</h1>
+        <h3 class="service--subtitle">{{ subTitle }}</h3>
+        <p class="service--description">{{ description }}</p>
+        <a class="btn service--request-button" href="/#contactForm">
+          Request Demo
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="service-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <img
+          src="{{ image }}"
+          alt="{{ imageAlt }}"
+          class="d-block img-responsive w-100"
+        />
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="service-content--paragraph">
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

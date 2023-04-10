@@ -1,29 +1,71 @@
 <nav class="navbar navbar-expand-lg navbar-light pt-0">
   <div class="container">
-    <a class="navbar-brand mb-0 pt-3 text-center text-white" href="{{ '/' | url }}">
-      <img src="/img/logo.png" alt="" class="logo-img">
+
+    <a
+      class="navbar-brand mb-0 pt-3 text-center text-white"
+      href="{{ '/' | url }}"
+    >
+      <img src="/img/logo.png" alt="" class="logo-img" />
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item me-1">
-          <a class="nav-link" aria-current="page" href="{{ '/' | url }}">Service</a>
+          <a
+            class="nav-link"
+            id="sevice-menu"
+            aria-current="page"
+            href="{{ '/' | url }}"
+            >Service</a
+          >
         </li>
 
         <li class="nav-item me-1">
-          <a class="nav-link" href="{{ '/default' | url }}">Industries</a>
+          <a class="nav-link" href="#industries">Industries</a>
         </li>
 
         <li class="nav-item me-1">
-          <a class="nav-link" href="{{ '/blog' | url }}">Neurologic World</a>
+          <a class="nav-link" href="#team">Neurologic World</a>
         </li>
-         <li class="nav-item me-1">
-          <a class="nav-link" href="{{ '/blog' | url }}">Reach Us</a>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/#contactForm">Reach Us</a>
         </li>
-
       </ul>
     </div>
   </div>
+  <div class="services-megamenu">
+  <div class="container">
+    <div class="row services-megamenu-row">
+      {% for service in collections.post %}
+        <div class="col-md-3 col-sm-12">
+          <div class="row services-megamenu--container">
+            <div class="col-3">
+              <img
+                src="{{ service.data.menuImg }}"
+                class="services-megamenu--icon"
+                alt=""
+              />
+            </div>
+            <div class="col-9">
+              <a class="nav-link" href="{{ service.url }}" ><h3 class="services-megamenu--title">{{ service.data.title }}</h3></a>
+              <p class="services-megamenu--para">
+                {{ service.data.menuSub }}
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 </nav>

@@ -39,6 +39,10 @@ module.exports = function(eleventyConfig) {
 
   });
 
+  eleventyConfig.addCollection("services", collection => {
+    return collection.getFilteredByGlob('src/services/**/*.json');
+  })
+
 
   // Add a filter using the Config API
   eleventyConfig.addWatchTarget("./src/scss/");

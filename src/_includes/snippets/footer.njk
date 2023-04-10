@@ -100,6 +100,35 @@
         unfade($element);
       })
     });
+
+    document.querySelector('#sevice-menu').addEventListener('click', function(event){
+      event.preventDefault();
+      $element = document.querySelector('.services-megamenu');
+      if($element.classList.contains('active')){
+        $element.classList.remove('active');
+      }else{
+        $element.classList.add('active');
+      }
+      
+    });
+
+    $teamInfoModal = document.querySelector('#individual-info-modal');
+    document.querySelector('#individual-info-close').addEventListener('click', function(event){
+      fade($teamInfoModal);
+    })
+    $team = document.querySelectorAll('.open-individual-info-modal');
+    $team.forEach(function(tgrElement){
+        tgrElement.addEventListener('click', function(){
+          var heading = this.querySelector('.team-heading').innerText;
+          var subHeading = this.querySelector('.team-heading--sub').innerText;
+          var description = this.querySelector('.team-description').dataset['description'];
+          document.querySelector('#individual-info-data h1').innerText = heading;
+          document.querySelector('#individual-info-data h4').innerText = subHeading;
+          document.querySelector('#individual-info-data p').innerText = description;
+          unfade($teamInfoModal);
+        });
+    });
+
   });
 
   function fade(element) {
@@ -127,4 +156,7 @@
           op += op * 0.1;
       }, 10);
   }
+  {# window.addEventListener('click', function(){
+    document.querySelector('.services-megamenu').classList.remove('active');
+  }) #}
 </script>
