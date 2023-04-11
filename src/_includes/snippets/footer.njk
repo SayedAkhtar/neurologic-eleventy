@@ -100,6 +100,16 @@
         unfade($element);
       })
     });
+    
+
+    $pillTabs = [].slice.call(document.querySelectorAll('.smart-platform--nav .nav-link'));
+    $pillTabs.forEach(function(element){
+      element.addEventListener('click', function(){
+        $firstChild = document.querySelector('.smart-platform__list').children[0];
+        unfade($firstChild)
+      })
+    })
+
 
     document.querySelector('#sevice-menu').addEventListener('click', function(event){
       event.preventDefault();

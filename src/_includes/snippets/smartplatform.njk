@@ -41,13 +41,13 @@
                         <div class="tab-pane {% if loop.index == 1 %} active {% endif %}" id="{{ subItem.id }}" role="tabpanel">
                             <div class="smart-platform__list--wrapper">
                                 <picture class="smart-platform__list--picture">
-                                    <source srcset="/img/Healthcare-54-min.webp" type="image/webp">
-                                    <source srcset="/img/Healthcare-54-min.png" type="image/png" >
-                                    <img src="/img/Healthcare-54-min.png" alt=""/>
+                                    <source srcset="{{ subItem.image }}" type="image/webp">
+                                    <source srcset="{{ subItem.image }}" type="image/png" >
+                                    <img src="{{ subItem.image }}" alt=""/>
                                 </picture>
                                 <div class="smart-platform__list--para">
                                     <p>
-                                        High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues
+                                        {{ subItem.description }}
                                     </p> 
                                 </div>
                             </div>

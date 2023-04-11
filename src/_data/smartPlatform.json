@@ -8,38 +8,126 @@
       {
         "id": "healthcare-one",
         "name": "Patient Risk Identification",
-        "image": "/img/BFSI-ai-min.webp",
+        "image": "/img/Healthcare-55-min.webp",
         "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
       },
       {
         "id": "healthcare-two",
         "name": "Prediction of Healthcare Tests and Procedures",
-        "image": "/img/BFSI-ai-min.webp",
-        "description": "Second One High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "image": "/img/Healthcare-54-min.webp",
+        "description": "Health insurance customers are provided with recom- mendations for tests and medical support through the use of Deep Learning based on their historical data and conditions, reducing the likelihood of disease and long-term hospitalization."
       },
       {
         "id": "healthcare-three",
         "name": "Maintaining Healthcare Records",
-        "image": "/img/BFSI-ai-min.webp",
-        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "image": "/img/Healthcare-55-min.webp",
+        "description": "Electronic Health Records (EHRs) are improved through automation, such as the detection and correction of pa- tient and insurance information, categorization of forms, and the reduction of manual effort."
       },
       {
         "id": "healthcare-four",
         "name": "Recommendation of Appropriate Health Insurance Plans and Top-ups",
-        "image": "/img/BFSI-ai-min.webp",
-        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "image": "/img/Healthcare-56-min.webp",
+        "description": "Personalized and cohort-level recommendations of health insurance plans and top-ups are made available to customers to ensure they have the coverage they need."
       },
       {
         "id": "healthcare-five",
         "name": "Prediction of Disease in the Next 1-2 Years",
-        "image": "/img/BFSI-ai-min.webp",
-        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "image": "/img/Healthcare-57-min.webp",
+        "description": "Possible diseases in the next 1-2 years can be predicted through the use of AI andML techniques, allowing for proactive measures to be taken by patients and healthcare providers."
       },
       {
         "id": "healthcare-six",
         "name": "AI Assistance in Making Health Insurance Plans",
+        "image": "/img/Healthcare-58-min.webp",
+        "description": "Unique health insurance plans that cover a variety of ail- ments are created through the use of AI algorithms that analyze disease and procedure similarities, customer claim history, and competitor information. This encourages more customers to sign"
+      }
+    ]
+  },
+  {
+    "id": "crm",
+    "tab": "CRM",
+    "heading": "",
+    "sub_heading": "Artificial Intelligence (AI) has revolutionized the way businesses interact with their customers. The integration of AI in Custom- er Relationship Management (CRM) has opened up new opportunities to provide personalized experiences and increased effi- ciency inmanaging customer interactions. With AI, companies can now analyze customer data and behavior to gain insights into their needs and preferences, enabling them to deliver customized offerings and services. The use of AI in CRM also helps in automating repetitive tasks, freeing up time for employees to focus on more critical tasks, and improving overall productivity. AI-powered chatbots provide instant responses to customer queries, reducing wait times and improving the overall customer experience. AI also enables businesses to predict customer behavior and make informed decisions based on their data-driven insights. In conclusion, the integration of AI in CRM has the potential to transform the way businesses manage customer relationships and drive growth.",
+    "tile": [
+      {
+        "id": "crm-one",
+        "name": "Accurate Sales Forecasting",
+        "image": "/img/CRM-accurate-min.webp",
+        "description": "Our sales forecasting service leverages hybrid models to provide businesses with a 95%+ accurate forecast by 3 weeks into the quarter. This enables companies to make data-driven decisions and adjust their strategies accordingly."
+      },
+      {
+        "id": "crm-two",
+        "name": "Intelligent Real-Time Notification System",
+        "image": "/img/CRM-intelligent-min.webp",
+        "description": "Our notification system is designed to trigger event-based notifications to users of different hierarchies in real-time. The system is highly configurable and can be adjusted to meet specific business needs.In addition, our recommend- er systems and business rules generate recommendations to help companies make informed decisions."
+      },
+      {
+        "id": "crm-three",
+        "name": "Deal Insight Generation",
+        "image": "/img/CRM-deal-insight-min.webp",
+        "description": "Our artificial intelligence-powered deal insight generation service provides businesses with real-timeevent-based in- sights into their deals. These insights help sales reps to take necessary actions and increase the winning probability of their deals."
+      },
+      {
+        "id": "crm-four",
+        "name": "Sales Intelligence Recommendations",
+        "image": "/img/CRM-img-min.webp",
+        "description": "Our AI-powered recommendation system provides businesses with up-sell and cross-sell opportunities by recommending critical actions such as price adjust- ments, follow-ups, and next-step recommendations. This helps companies to maximize their sales potential and improve their bottom line."
+      },
+      {
+        "id": "crm-five",
+        "name": "Conversation Analysis",
+        "image": "/img/CRM-conver-min.webp",
+        "description": "Our conversation analysis service leverages the latest NLP techniques to analyze client calls and generate re-ports. The reports uncover insights and pinpoint the topics or discussions that felt weak or negative to the client. This information can then used to improve the overall customer experience and strenthen customer relationship"
+      }
+    ]
+  },
+  {
+    "id": "bfsi",
+    "tab": "BFSI",
+    "heading": "",
+    "sub_heading": "Artificial Intelligence (AI) has revolutionized the way the Banking, Financial Services, and Insurance (BFSI) industry operates. With its ability to process vast amounts of data and perform complex calculations in a fraction of the time it would take humans, AI has the potential to enhance and streamline the industry's operations. The use of AI in BFSI helps to automate manual and repetitive tasks, reduce the risk of human error, increase the speed and accuracy of decision making, and improve customer experience. From fraud detection and prevention to customer onboarding, AI has a significant impact on the various areas of the BFSI sector. With the help of AI, BFSI companies can not only increase their efficiency but also increase the overall satisfaction of their customers and improve their bottom line.",
+    "tile": [
+      {
+        "id": "bfsi-one",
+        "name": "Fraud Detection and Prevention",
+        "image": "/img/BFSI-Fraud-detection-min.webp",
+        "description": "Our sales forecasting service leverages hybrid models to provide businesses with a 95%+ accurate forecast by 3 weeks into the quarter. This enables companies to make data-driven decisions and adjust their strategies accordingly."
+      },
+      {
+        "id": "bfsi-two",
+        "name": "Assessment and Management of Credit Risk",
+        "image": "/img/BFSI-Assessment-min.webp",
+        "description": "Our solutions leverage statistical modelling and machine learning to provide robust and accurate assessments of credit risk. On top of FICO and Vantage Scores, our models develop use case based Scores for the customer. Our Credit Risk Solutions include credit scoring, credit card default prediction, determining credit limits, per- sonalized interest rates, and up/downgrading of custom- er profiles – to name a few."
+      },
+      {
+        "id": "bfsi-three",
+        "name": "Customer Churn Prediction and Retention",
+        "image": "/img/BFSI-customer-min.webp",
+        "description": "Customer Churn Prediction and Retention: Most of the Retail banks report Churn rate between 20% - 25%. Our AI solutions help financial institutions predict customer churn before it would actually happen, thereby trigger- ing a signal to prevent avoidable churns and design ef- fective retention strategies to improve customer loyalty and reduce attrition."
+      },
+      {
+        "id": "bfsi-four",
+        "name": "Machine Learning Process Automation",
         "image": "/img/BFSI-ai-min.webp",
-        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "description": "Our solutions use machine learning to automate a wide range of back-end processes, including loan processing, claims management, and more, freeing up time and re- sources for financial institutions to focus on core business activities."
+      },
+      {
+        "id": "bfsi-five",
+        "name": "Compliance Regulation",
+        "image": "/img/BFSI-compliance-min.png",
+        "description": "Many regulatory compliance practices in banking are new and evolving, with stringent implementation time- lines that put greater pressure on banks. These institu- tions, both small and large, face challenges keeping up with the growth of regulations when using legacy ap- proaches that lead them to risks. BFSI organizations can adopt our AI Solutions to streamline compliance process- es and improve productivity. Thanks to the Algorithms’ ability to process massive data logs and deliver meaning- ful insights, our AI solution can give financial institutions a competitive advantage with real-time updates for simpler compliance management."
+      },
+      {
+        "id": "bfsi-six",
+        "name": "Advanced NLP in Customer Support",
+        "image": "/img/BFSI-advanced-nlp-min.webp",
+        "description": "Advanced NLP in Customer Support: Our solutions lever- age NLP (natural language processing) to deliver context-based chatbots and ticket-raising systems for customer support, improving response times and resolv- ing customer issues more effectively"
+      },
+      {
+        "id": "bfsi-seven",
+        "name": "Onboarding of Customers and Document",
+        "image": "/img/BFSI-Onboarding-min.webp",
+        "description": "Our AI solutions automate overall digitise the customer onboarding process, reducing manual effort, time of completion and errors. This includes intelligent docu- ment processing, which enables automatic extraction of data from customer documents, automatic and error free AI driven check and faster completion."
       }
     ]
   },
@@ -51,9 +139,97 @@
     "tile": [
       {
         "id": "ecommerce-one",
-        "name": "Patient Risk Identification",
-        "image": "/img/BFSI-ai-min.webp",
-        "description": "High-risk patients can be identified through the use of Machine Learning algorithms that consider various factors such as historical data, conditions, lab values, and socioeconomic information. This proactive approach to patient care helps to prevent serious health issues"
+        "name": "Personalization",
+        "image": "/img/E-Commerce-54-min.webp",
+        "description": "Recommendation Techniques: Our recommendation engine uses machine learning algorithms to analyze customer data and behaviour to deliver a highly personalized user experience for each site visitor – this can be catered to particular need of the Ecommerce vendor in real time. We do most of the high end Deep Neural computation backend so the user can get his/her tailor made recommendation extremely fast"
+      },
+      {
+        "id": "ecommerce-two",
+        "name": "Site Search",
+        "image": "/img/E-Commerce-55-min.webp",
+        "description": "Recommendation Techniques: Our recommendation engine uses machine learning algorithms to analyze customer data and behaviour to deliver a highly personalized user experience for each site visitor – this can be catered to particular need of the Ecommerce vendor in real time. We do most of the high end Deep Neural computation backend so the user can get his/her tailor made recommendation extremely fast"
+      },
+      {
+        "id": "ecommerce-three",
+        "name": "Inventory Management",
+        "image": "/img/E-Commerce-56-min.webp",
+        "description": "Recommendation Techniques: Our recommendation engine uses machine learning algorithms to analyze customer data and behaviour to deliver a highly personalized user experience for each site visitor – this can be catered to particular need of the Ecommerce vendor in real time. We do most of the high end Deep Neural computation backend so the user can get his/her tailor made recommendation extremely fast"
+      },
+      {
+        "id": "ecommerce-four",
+        "name": "Dynamic Pricing",
+        "image": "/img/E-Commerce-57-min.webp",
+        "description": "Optimal Pricing: Machine learning in e-commerce helps you determine the best and most optimal price for each product thereby maximizing sales and optimizing inven- tory. Our Dynamic Pricing models consider not current demand and profit margin, but also competitor factors into account keeping the Ecommerce company’s pricing advantage on the forefront. Overall, Our in built models allow you to choose the optimal price and display re- al-time discounts based on demand trends and the state of your warehouse."
+      },
+      {
+        "id": "ecommerce-five",
+        "name": "Churn Prediction",
+        "image": "/img/E-Commerce-58-min.webp",
+        "description": "Customer Retention: For an Ecommerce organization, Customer churn can be defined as the rate at which cus- tomers leave a platform or service. Our state of the art Machine Learning algorithms analyze customer data to find patterns that indicate when a customer is about to churn – both voluntarily (caused by better deals some- where else) and involuntarily (caused by payment related issues). With this information, you can tailor marketing campaigns to keep them on board and improve customer retention."
+      },
+      {
+        "id": "ecommerce-six",
+        "name": "Fraud Detection",
+        "image": "/img/E-Commerce-59-min.webp",
+        "description": "Secure Transactions: While Ecom Sales were estimated $ 630 B in 2020, approximately $ 16 B were lost due to fraud. With machine learning, our algorithms process vast amounts of customer data to detect genuine transactions and flag potential fraud – Data Breach, Denial of Service, Malware, Spoofing, Ransomware etc. This helps ensure that your e-commerce transactions are secure and protected from any potential threats."
+      }
+      ,
+      {
+        "id": "ecommerce-seven",
+        "name": "Image Processing Applications",
+        "image": "/img/E-Commerce-60-min.webp",
+        "description": "Visual Search: Our investment in AI and image recogni- tion systems helps influence customer behavior and au- tomates processes. Our computer vision technology with visual search capabilities can match customers' photos with similar products sold online, based on their prefer- ences and social media data."
+      }
+      ,
+      {
+        "id": "ecommerce-eight",
+        "name": "Omnichannel Marketing",
+        "image": "/img/E-Commerce-61-min.webp",
+        "description": "Boosting: Our machine learning algorithms help you de- liver seamless and personalized omnichannel marketing experiences to your customers, resulting in increased conversions and customer engagement."
+      }
+    ]
+  },
+  {
+    "id": "manufacturing",
+    "tab": "Manufacturing",
+    "heading": "",
+    "sub_heading": "The manufacturing industry has been greatly impacted by the advancements in artificial intelligence (AI) and machine learning (ML). These technologies have revolutionized the way in which products are manufactured and have led to significant improve- ments in efficiency, quality, and cost savings. By leveraging AI and ML, manufacturing companies can monitor their production processes in real-time, perform predictive maintenance, optimize production layouts, and even create digital twins of their factories. In addition, AI-powered non-destructive testing and quality assurance methods can detect defects in materials more effectively than human-led inspection processes. AI and ML also play a crucial role in managing energy consumption, supply chain management, and inventory control. These capabilities have enabled manufacturers to stay ahead of the competition and remain at the forefront of innovation in the industry.",
+    "tile": [
+      {
+        "id": "manu-one",
+        "name": "Predictive Maintenance",
+        "image": "/img/manufacturing-54-min.webp",
+        "description": "Our IoT sensors and machine learning algorithms can be utilized to predict maintenance needs and prevent ma- chine failure, providing a solution for the growing field of predictive maintenance."
+      },
+      {
+        "id": "manu-two",
+        "name": "Quality Assurance",
+        "image": "/img/manufacturing-55-min.webp",
+        "description": "The quality of manufactured products can be improved through the use of our advanced technologies such as neural networks,high-resolution cameras, and powerful GPUs. Our real-time video processing combined with machine learning and computer vision facilitates the elimination of unusable productsand ensures the correct operation of the factory in a box. IoT sensors and algorithms provide non-invasive testing of products, enabling the detection of potential defects."
+      },
+      {
+        "id": "manu-three",
+        "name": "Problem Localization",
+        "image": "/img/manufacturing-56-min.webp",
+        "description": "The identification of hardware or software behaviors that cause defects can be facilitated through the use of our IoT sensors and machine learning capabilities. Solutions to prevent such defects in the future can also be developed,reducing the margin of error in the factory in a box scenario"
+      },
+      {
+        "id": "manu-four",
+        "name": "Digital Twins",
+        "image": "/img/manufacturing-57-min.webp",
+        "description": "Virtual recreations of production processes can be created through the utilization of our digital twin solutions, based on real-time data and IoT sensors. These provide a sandbox for experimentation, allowing for optimization of the environment through machine learning. Layout optimization and quality assurance efforts can also be facilitated through the use of digital twins."
+      },
+      {
+        "id": "manu-five",
+        "name": "Non-Destructive Testing (NDT)",
+        "image": "/img/manufacturing-58-min.webp",
+        "description": "Materials can be evaluated for stability and integrity without causing damage through the utilization of our NDT solutions. Data analysis through ultrasound machines and machine learning algorithms allows for the detection of anomalies such as cracks in materials with greater speed and accuracy."
+      },
+      {
+        "id": "manu-six",
+        "name": "Warehouse Inventory Control",
+        "image": "/img/manufacturing-59-min.webp",
+        "description": "The improvement of warehouse inventory control through the prediction of demand, reduction of waste, and increase in efficiency can be achieved through the utilization of our machine learning algorithms."
       }
     ]
   }
