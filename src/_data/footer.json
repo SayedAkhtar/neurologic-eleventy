@@ -2,65 +2,49 @@
     "service" : [
         {
             "name": "Data Collection",
-            "link": "#"
+            "link": "/services/training-and-education"
         },
         {
             "name": "Data Annotation",
-            "link": "#"
+            "link": "/services/data-anotations/"
         },
         {
             "name": "Transcription",
-            "link": "#"
+            "link": "/services/explainable-machine-learning-service/"
         },
         {
             "name": "Chatbot Localization",
-            "link": "#"
+            "link": "/services/text-analytics-with-natural-language-processing"
         },
         {
             "name": "User Studies",
-            "link": "#"
+            "link": "/services/explainable-machine-learning-services"
         },
         {
             "name": "Data Relevance and Rating",
-            "link": "#"
+            "link": "/services/mlops-deployment-service"
         },
         {
             "name": "Data Moderation",
-            "link": "#"
+            "link": "/services/recommendation-engine"
         }
     ],
     "industries" : [
         {
-            "name": "Automotive",
-            "link": "#"
+            "name": "Healthcare",
+            "link": "#industries"
         },
         {
-            "name": "Cybersecurity",
-            "link": "#"
+            "name": "BFSI",
+            "link": "#industries"
         },
         {
-            "name": "Finance",
-            "link": "#"
-        },
-        {
-            "name": "Life Sciences",
-            "link": "#"
+            "name": "E-Commerce",
+            "link": "#industries"
         },
         {
             "name": "Manufacturing",
-            "link": "#"
-        },
-        {
-            "name": "Retail",
-            "link": "#"
-        },
-        {
-            "name": "Technology",
-            "link": "#"
-        },
-        {
-            "name": "Travel",
-            "link": "#"
+            "link": "#industries"
         }
     ]
 }

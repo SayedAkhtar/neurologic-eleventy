@@ -110,6 +110,11 @@
       })
     })
 
+    document.querySelector('.close-service-menu > button').addEventListener('click', function(event){
+      $element = document.querySelector('.services-megamenu');
+      $element.classList.remove('active');
+    })
+
 
     document.querySelector('#sevice-menu').addEventListener('click', function(event){
       event.preventDefault();

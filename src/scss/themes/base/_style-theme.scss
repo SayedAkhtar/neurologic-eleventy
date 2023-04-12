@@ -2,6 +2,11 @@
 body {
   letter-spacing:-.02rem;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+main{
+  overflow-x: hidden;
 }
 
 section {
@@ -167,9 +172,4 @@ h1, h2 {
 
 .form-control{
   border-radius: 0px;
-}
-
-
-@media (min-width: 500) {
-  
 }
