@@ -134,6 +134,7 @@ layout: layouts/base.njk
         <div class="swiper-slide">
           <div class="circle-card industries__card">
             <div class="card-image industries__card--picture">
+              <a href="{{ item.link }}">
               <picture class="img-responsive industries__card--image">
                 <source
                   srcset="{{ item.image }}"
@@ -144,9 +145,10 @@ layout: layouts/base.njk
                   class="industries__card--img"
                 />
               </picture>
+              </a>
             </div>
             <div class="industries__card--description">
-              <h3>{{ item.name }}</h3>
+              <h3><a href="{{ item.link }}" class="link-unstyled text-reset text-decoration-none">{{ item.name }}</a></h3>
             </div>
           </div>
         </div>

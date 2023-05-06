@@ -9,7 +9,7 @@
         <h6 class="footer-nav-title">Services</h6>
         <ul class="footer-nav">
           {% for item in footer.service %}
-          <li class="footer-nav__li">{{ item.name}}</li>
+          <li class="footer-nav__li"><a href="{{ item.link }}" class="link-unstyled text-reset text-decoration-none">{{ item.name}}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -17,7 +17,7 @@
         <h6 class="footer-nav-title">Industries</h6>
         <ul class="footer-nav">
           {% for item in footer.industries %}
-          <li class="footer-nav__li">{{ item.name}}</li>
+          <li class="footer-nav__li"><a href="{{ item.link }}" class="link-unstyled text-reset text-decoration-none">{{ item.name}}</a></li>
           {% endfor %}
         </ul>
       </div>
