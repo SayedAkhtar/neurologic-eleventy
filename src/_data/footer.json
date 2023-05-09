@@ -1,32 +1,49 @@
 {
     "service" : [
         {
-            "name": "Data Collection",
-            "link": "/services/training-and-education"
-        },
-        {
-            "name": "Data Annotation",
+            "name": "Data Annotations",
+            "image": "/img/menu-icons-54-min.png",
             "link": "/services/data-anotations/"
         },
         {
-            "name": "Transcription",
+            "name": "Image & Video Analytics Services",
+            "image": "/img/menu-icons-62-min.png",
+            "link": "/services/image-video-analytics-services/"
+        },
+        {
+            "name": "Audio Analytics Service",
+            "image": "/img/menu-icons-64-min.png",
+            "link": "/services/audio-analytics-services/"
+        },
+        {
+            "name": "Text Analytics with Natural Language Processing",
+            "image": "/img/menu-icons-60-min.png",
+            "link": "/services/text-analytics-with-natural-language-processing/"
+        },
+        {
+            "name": "Forecasting and Predictive Modeling Services",
+            "image": "/img/menu-icons-63-min.png",
+            "link": "/services/forcasting-and-predictive-modeling-service/"
+        },
+        {
+            "name": "Recommendation Engine Services",
+            "image": "/img/menu-icons-59-min.png",
+            "link": "/services/recommendation-engine/"
+        },
+        {
+            "name": "Explainable Machine Learning Services",
+            "image": "/img/menu-icons-61-min.png",
             "link": "/services/explainable-machine-learning-service/"
         },
         {
-            "name": "Chatbot Localization",
-            "link": "/services/text-analytics-with-natural-language-processing"
+            "name": "MLOps Deployment Pipeline Services",
+            "image": "/img/menu-icons-58-min.png",
+            "link": "/services/mlops-deployment-service/"
         },
         {
-            "name": "User Studies",
-            "link": "/services/explainable-machine-learning-services"
-        },
-        {
-            "name": "Data Relevance and Rating",
-            "link": "/services/mlops-deployment-service"
-        },
-        {
-            "name": "Data Moderation",
-            "link": "/services/recommendation-engine"
+            "name": "Training and Education Services for Digital Transformation and AI",
+            "image": "/img/menu-icons-56-min.png",
+            "link": "/services/training-and-education/"    
         }
     ],
     "industries" : [
