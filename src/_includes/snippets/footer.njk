@@ -81,6 +81,35 @@
     }
   });
 
+  const teamSwiper = new Swiper('.team-swiper', {
+    speed: 400,
+    slidesPerView: 5,
+    navigation: {
+      nextEl: '.team-swiper__next',
+      prevEl: '.team-swiper__prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 5,
+        spaceBetween: 60
+      }
+    }
+  });
+
   window.addEventListener("DOMContentLoaded", function(event) {
     $navTabs = [].slice.call(document.querySelectorAll('.smart-platform__list--li'));
     $navTabs.forEach(function (triggerEl) {
