@@ -29,6 +29,30 @@
 
   const Popper__namespace = /*#__PURE__*/_interopNamespace(Popper);
 
+
+
+
+// Js for logo
+const slideTrack = document.querySelector('.slide-track')
+// document.querySelector('slider').appendChild(slideTrack)
+const slides = slideTrack.querySelectorAll('.slide');
+const slideWidth = slides[0].offsetWidth; // Adjust the slide width accordingly
+
+// Clone the slides
+const slideCount = slides.length;
+  for (let i = 0; i < slideCount; i++) {
+  const clone = slides[i].cloneNode(true);
+  slideTrack.appendChild(clone);
+  }
+
+// Set the width of the slide track to accommodate all slides
+slideTrack.style.width = slideWidth* (slideCount*0.9) + 'px';
+
+
+
+
+  
+
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v5.2.0): util/index.js
