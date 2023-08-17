@@ -124,25 +124,25 @@ layout: layouts/base.njk
    <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="/img/client-1.png" height="80" width="300" alt="" />
+            <img src="/img/client-1.png" height="90" width="310" alt="" />
           </div>
           <div class="slide">
-            <img src="/img/client-3.png" height="100" width="300" alt="" />
+            <img src="/img/client-3.png" height="110" width="310" alt="" />
           </div>
           <div class="slide">
-            <img src="/img/client-2.png" height="100" width="300" alt="" />
+            <img src="/img/client-2.png" height="110" width="310" alt="" />
           </div>
           <div class="slide">
-            <img src="/img/client-4.png" height="100" width="300" alt="" />
+            <img src="/img/client-4.png" height="110" width="310" alt="" />
           </div>
           <div class="slide">
-            <img src="/img/client-5.jpeg" height="100" width="250" alt="" />
+            <img src="/img/client-5.jpeg" height="110" width="260" alt="" />
           </div> 
           <div class="slide">
-            <img src="/img/client-6.jpg" height="80" width="220" alt="" style="margin: 0px 40px" />
+            <img src="/img/client-6.jpg" height="90" width="230" alt="" style="margin: 0px 40px" />
           </div> 
           <div class="slide">
-            <img src="/img/client-7.png" height="80" width="200" alt="" style="margin-right: 50px;" />
+            <img src="/img/client-7.png" height="90" width="210" alt="" style="margin-right: 50px;" />
           </div>
         </div>
       </div>
@@ -279,6 +279,26 @@ layout: layouts/base.njk
     </div>
   </div>
 </section>
+
+<script>
+  
+// Js for logo
+const slideTrack = document.querySelector('.slide-track')
+// document.querySelector('slider').appendChild(slideTrack)
+const slides = slideTrack.querySelectorAll('.slide');
+const slideWidth = slides[0].offsetWidth; // Adjust the slide width accordingly
+
+// Clone the slides
+const slideCount = slides.length;
+  for (let i = 0; i<slideCount; i++) {
+  const clone = slides[i].cloneNode(true);
+  slideTrack.appendChild(clone);
+  }
+
+// Set the width of the slide track to accommodate all slides
+slideTrack.style.width = slideWidth* (slideCount*0.5) + 'px';
+
+</script>
 
 
 {% include 'snippets/team.njk' %}
