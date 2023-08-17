@@ -2,13 +2,13 @@
 .slider {
 	background: white;
 	/* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
-	height: 200px;
+	height: 220px;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
-	width: 1100px;
-  margin-top: 50px;
-  display: inline-block
+	width: 1200px;
+  	margin-top: 50px;
+  	display: inline-block
   
 }
 
@@ -36,7 +36,7 @@
 .slide-track {
 	animation: scroll 30s linear infinite;
 	display: flex;
-	width: calc(2280px);
+	width: calc(2300px);
   padding: 20px 0px ;
   animation-play-state: running;
 }
@@ -45,8 +45,8 @@
 }
 
 .slide {
-	height: 100px;
-	width: 300px;
+	height: 110px;
+	width: 320px;
   align-content: center;
   margin: 0 20px;
 }
